@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
                 <Main />
                 <NextScript />
             </body>
-            <style jsx>{`
+            <style jsx global>{`
                 body {
                     font-family: 'Noto Sans JP', sans-serif;
                     margin: 0;
