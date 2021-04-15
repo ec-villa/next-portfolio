@@ -21,6 +21,12 @@ const Layout = ({children, title}) => (
     <h1>{title}</h1>
     {children}
     <footer>&copy; {new Date().getFullYear()}</footer>
+    <style jsx global>{`
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            margin: 0;
+        }
+    `}</style>
     <style jsx>{`
         .root {
             display: flex;
